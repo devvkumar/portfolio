@@ -42,6 +42,10 @@ export default function RootLayout({
               <Header />
               {children}
               <Footer />
+              <WidgetWrapper>
+                <ThemeSwitch />
+                <LanguageSwitch />
+              </WidgetWrapper>
             </ActionSectionContextProvider>
           </ThemeContextProvider>
         </NextIntlClientProvider>

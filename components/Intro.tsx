@@ -82,7 +82,16 @@ export default function Intro() {
         <span className={`${sourceCodePro.className} text-sm tracking-wider `}>
           {t("hello_im")}
         </span>
-        <motion.div
+        <h1 className="text-center text-4xl font-bold tracking-tight  sm:text-5xl">
+          Dev Kumar
+        </h1>
+        <span
+          className={`${sourceCodePro.className} text-sm tracking-wider`}
+        >
+          I&apos;m a{" "}
+        </span>
+        
+        {/* <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
@@ -91,13 +100,27 @@ export default function Intro() {
           <h1 className="text-center text-4xl font-bold tracking-tight  sm:text-5xl">
             Dev Kumar
           </h1>
-
           <div className="text-center">
             <span
               className={`${sourceCodePro.className} text-sm tracking-wider`}
             >
               I&apos;m a{" "}
             </span>
+          </div>
+
+        </motion.div> */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          // className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
+        >
+          <div className="text-center">
+            {/* <span
+              className={`${sourceCodePro.className} text-sm tracking-wider`}
+            >
+              I&apos;m a{" "}
+            </span> */}
             <h2
               id="name"
               className=" text-center  text-2xl  sm:text-5xl lg:text-4xl lg:leading-normal font-extrabold"
@@ -126,44 +149,44 @@ export default function Intro() {
       </motion.h1>
 
       <motion.div
-      className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 text-lg font-medium"
-      initial={{ opacity: 0, y: 100 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: 0.1 }}
-    >
-      <a
-        href={activeLocale === "en" ? "/Dev_Kumar_resume.pdf" : "/sdfghjk.pdf"}
-        download={true}
-        className="bg-white z-[1000] py-2 px-3 text-sm text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+        className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 text-lg font-medium"
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.1 }}
       >
-        {t("download_cv")}
-        <HiDownload />
-      </a>
-      <a
-        className="bg-white z-[1000] p-3 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-        href="https://www.linkedin.com/in/devkumaar/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <BsLinkedin />
-      </a>
-      <a
-        className="bg-white z-[1000] p-3 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-        href="https://github.com/devvkumar"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <FaGithubSquare />
-      </a>
-      <a
-        className="bg-white py-2 px-3 text-sm text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-        href="https://your-blog-url.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        {t("blog")}
-      </a>
-    </motion.div>
+        <a
+          href={activeLocale === "en" ? "/Dev_Kumar_resume.pdf" : "/sdfghjk.pdf"}
+          download={true}
+          className="bg-white z-[1000] py-2 px-3 text-sm text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+        >
+          {t("download_cv")}
+          <HiDownload />
+        </a>
+        <a
+          className="bg-white z-[1000] p-3 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://www.linkedin.com/in/devkumaar/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <BsLinkedin />
+        </a>
+        <a
+          className="bg-white z-[1000] p-3 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://github.com/devvkumar"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaGithubSquare />
+        </a>
+        <a
+          className="bg-white py-2 px-3 text-sm text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://your-blog-url.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {t("blog")}
+        </a>
+      </motion.div>
     </section>
   )
 }

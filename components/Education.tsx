@@ -42,7 +42,7 @@ export default function Experience({ isMobile }: { isMobile: boolean }) {
         {" "}
         {activeLocale === "zh"
           ? headerLanguageMap["Experiences"]
-          : "My Experiences"}
+          : "My Education"}
       </SectionHeading>
       {!isMobile ? (
         <VerticalTimeline lineColor={theme == "light" ? "#e9e9ea" : "#3b3d4f"}>

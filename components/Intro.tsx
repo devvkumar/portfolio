@@ -132,7 +132,7 @@ export default function Intro() {
       transition={{ delay: 0.1 }}
     >
       <a
-        href={activeLocale === "en" ? "/Dev_Kumar_resume.pdf" : "/sdfghjk.pdf"}
+        href={activeLocale === "en" ? "/Dev_Kumar_resume.pdf" : "/Dev_Kumar_resume.pdf"}
         download={true}
         className="bg-white z-[1000] py-2 px-3 text-sm text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
       >

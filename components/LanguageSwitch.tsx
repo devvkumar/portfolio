@@ -24,11 +24,11 @@ export default function LanguageSwitch() {
         className="w-[2.5rem] h-[2.5rem] bg-opacity-80 flex items-center justify-center gap-1 transition-all "
       >
         <span className="sr-only">Change Language</span>
-        {/* <IoLanguageOutline /> */}
+        <IoLanguageOutline />
 
         <span className="text-sm hover:scale-[1.15] active:scale-105 transition-all">
           {" "}
-          {localActive == "en" ? "EN" : "ZH"}
+          {localActive == "en" ? "EN" : "HN"}
         </span>
       </button>
     </>

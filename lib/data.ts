@@ -44,12 +44,12 @@ export const links = [
 
 
 export const headerLanguageMap = {
-    Home: '首页',
+    "Home": "मुखपृष्ठ",
     About: 'बारे में',
     Projects: 'परियोजनाओं',
     Skills: 'कौशल',
     Experiences: 'अनुभव',
-    Education: 'अनुभव',
+    Education: 'शिक्षा',
 }
 
 export const educationData = [

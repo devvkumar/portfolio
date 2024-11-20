@@ -10,8 +10,8 @@ export default function LanguageSwitch() {
   const pathname = usePathname()
 
   const onChangeLanguage = (e: React.MouseEvent<HTMLButtonElement>) => {
-    const nextLocale = localActive === "en" ? "zh" : "en"
-    const newPath = pathname.replace(/^\/(en|zh)/, `/${nextLocale}/`)
+    const nextLocale = localActive === "en" ? "hn" : "en"
+    const newPath = pathname.replace(/^\/(en|hn)/, `/${nextLocale}/`)
     router.replace(newPath, {
       scroll: false,
     })

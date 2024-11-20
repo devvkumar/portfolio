@@ -33,7 +33,7 @@ export default function Experience({ isMobile }: { isMobile: boolean }) {
   const activeLocale = useLocale()
 
   const experienceDataShown =
-    activeLocale == "zh" ? educationDataZn : educationData
+    activeLocale == "hn" ? educationDataZn : educationData
 
   return (
     <section className="sm:mb-40 relative mb-20">

@@ -104,9 +104,9 @@ export default function Intro() {
             >
               <TypeAnimation
                 sequence={[
-                  "Frontend Developer",
+                  "System Analyst 1",
                   1000,
-                  "Full Stack Developer",
+                  "Oracle ERP Consultant",
                   1000,
                 ]}
                 wrapper="span"
@@ -120,7 +120,7 @@ export default function Intro() {
         {activeLocale === "en" && (
           <p>
             My focus is{" "}
-            <span className="italic font-bold">React (Next.js)</span>.
+            <span className="italic font-bold">Transforming Data into Actionable Insights</span>.
           </p>
         )}
       </motion.h1>
@@ -131,14 +131,14 @@ export default function Intro() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.1 }}
     >
-      <a
+      {/* <a
         href={activeLocale === "en" ? "/Dev_Kumar_resume.pdf" : "/Dev_Kumar_resume.pdf"}
         download={true}
         className="bg-white z-[1000] py-2 px-3 text-sm text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
       >
         {t("download_cv")}
         <HiDownload />
-      </a>
+      </a> */}
       <a
         className="bg-white z-[1000] p-3 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
         href="https://www.linkedin.com/in/devkumaar/"
@@ -157,7 +157,7 @@ export default function Intro() {
       </a>
       <a
         className="bg-white py-2 px-3 text-sm text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-        href="https://your-blog-url.com"
+        href="https://medium.com/@dksingh.ops"
         target="_blank"
         rel="noopener noreferrer"
       >

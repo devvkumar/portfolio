@@ -88,14 +88,13 @@ export const educationDataZn = [
 
 export const experiencesData = [
     {
-        title: "Associate - Enterprise Application",
-        location: "DeepSolvQuadragen Solutions Pvt. Ltd., On-Site",
+        title: "System Analyst 1",
+        location: "Quadragen Solutions Pvt. Ltd., On-Site",
         description:
-            "Demonstrated strong troubleshooting skills by resolving and debugging over 10 issues in real-time. Maintained task-specific GitHub repositories, ensuring seamless collaboration and version control. Developed user interfaces with input validation and data integrity, enhancing user experience. Implemented more than 9 CRUD operations, maintaining data integrity and storage capabilities for users.",
+            "System Analyst with strong expertise in Oracle Integration Cloud (OIC), enterprise APIs, and data integrations. Experienced in building REST/SOAP services, ERP/HCM adapters, FTP/File automations, and end-to-end orchestration workflows. Skilled in BI Publisher, OTBI, BICC, FBDI, and reporting solutions across Oracle Fusion and EBS. Proficient in XML/JSON transformations, interfaces, RICE components, and API testing, delivering scalable and reliable data-driven solutions for enterprise systems.",
         icon: React.createElement(FaCode),
         date: "2024 Oct - Present",
     },
-
     {
         title: "Frontend Developer Internship",
         location: "EduBlends, Remote",

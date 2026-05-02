@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 import { motion } from "framer-motion"
-import { BsArrowRight, BsLinkedin } from "react-icons/bs"
+import { BsArrowRight, BsLinkedin, BsPinterest } from "react-icons/bs"
 import { HiDownload } from "react-icons/hi"
 import { FaGithubSquare } from "react-icons/fa"
 import Link from "next/link"
@@ -154,6 +154,14 @@ export default function Intro() {
         rel="noopener noreferrer"
       >
         <FaGithubSquare />
+      </a>
+       <a
+        className="bg-white z-[1000] p-3 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+        href="https://in.pinterest.com/feellikedevv/_created"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <BsPinterest />
       </a>
       <a
         className="bg-white py-2 px-3 text-sm text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
